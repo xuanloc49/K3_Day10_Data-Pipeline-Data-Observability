@@ -48,6 +48,11 @@ def build_clean_dataframe(records: list[PaperRecord], run_date: datetime) -> pd.
         categories = [
             strip_markup(category) for category in record.categories if strip_markup(category)
         ]
+        if not categories:
+            # Crossref hiem khi tra ve `subject`; dung ten journal (container-title) lam category proxy.
+            journal_name = strip_markup(record.comment)
+            if journal_name:
+                categories = [journal_name]
         authors_joined = compact_join(authors)
         categories_joined = compact_join(categories)
 

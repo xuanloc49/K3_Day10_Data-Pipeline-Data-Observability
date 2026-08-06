@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question_type": "authors",
+    "question": "Who authored the paper titled 'Hi\u2010 RAG : A Hierarchical Retrieval\u2010Augmented Generation Framework for Scalable and Generalisable Tool Selection in Large Language Model Agents'?",
+    "ground_truth": "Wei Tian, Yuhao Zhou",
+    "ground_truth_doc_ids": [
+      "10.1111/exsy.70341"
+    ]
+  },
+  {
+    "id": "q2",
+    "question_type": "date",
+    "question": "When was the paper titled 'SafeRAG: A Large-Language-Model-Based Multistage Retrieval-Augmented Framework for Oil and Gas Safety Report Generation' published?",
+    "ground_truth": "2026-08-01",
+    "ground_truth_doc_ids": [
+      "10.2118/234689-pa"
+    ]
+  },
+  {
+    "id": "q3",
+    "question_type": "categories",
+    "question": "What categories does the paper titled 'JADE-Plus: A Multimodal Agentic Retrieval-Augmented Generation Large Language Framework for Diagnostic Support in Jawbone Lesions: Development and Technical Validation Study' belong to?",
+    "ground_truth": "Journal of Imaging Informatics in Medicine",
+    "ground_truth_doc_ids": [
+      "10.1007/s10278-026-02086-9"
+    ]
+  },
+  {
+    "id": "q4",
+    "question_type": "summary",
+    "question": "What is the paper titled 'Retrieval-Augmented Large-Language-Model-Based Time-Series Forecasting for Cross-Market Equity Analysis' about?",
+    "ground_truth": "Abstract Time-series foundation models and retrieval-based augmentation have recently emerged as relevant tools for financial forecasting, yet it remains unclear when explicit historical retrieval helps a pre-trained probabilistic forecaster in noisy equity settings.",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10178277/v1"
+    ]
+  },
+  {
+    "id": "q5",
+    "question_type": "authors",
+    "question": "Who authored the paper titled 'Does retrieval-augmented generation impact medical students\u2019 perceptions of large language models? (Preprint)'?",
+    "ground_truth": "Rohin Athavale, Alexander Cresswell, Alice Huffman",
+    "ground_truth_doc_ids": [
+      "10.2196/preprints.106157"
+    ]
+  },
+  {
+    "id": "q6",
+    "question_type": "date",
+    "question": "When was the paper titled 'An Agentic AI System for Roof Design Compliance Using Computer Vision, Retrieval-Augmented Generation and Large Language Models' published?",
+    "ground_truth": "2026-07-02",
+    "ground_truth_doc_ids": [
+      "10.3390/buildings16132637"
+    ]
+  },
+  {
+    "id": "q7",
+    "question_type": "authors",
+    "question": "Who authored the paper titled 'Microsoft Azure artificial intelligence / machine learning hackathon for development of retrieval-augmented generation large language model'?",
+    "ground_truth": "Janet L. Autrey, Lacey S. Duckworth, Ashly N. Horner, Thomas Sigler, Victoria D. Moore",
+    "ground_truth_doc_ids": [
+      "10.21079/11681/50309"
+    ]
+  },
+  {
+    "id": "q8",
+    "question_type": "summary",
+    "question": "What is the paper titled 'The Age of Autonomous Agents: A Bibliometric Review of Agentic AI Architectures, Applications, and Emerging Challenges' about?",
+    "ground_truth": "The rapid evolution of large language models (LLMs) has catalyzed a shift from passive AI systems toward autonomous agentic architectures capable of reasoning, memory, tool use, and multi-agent collaboration.",
+    "ground_truth_doc_ids": [
+      "10.63646/kpqm1958"
+    ]
+  },
+  {
+    "id": "q9",
+    "question_type": "authors",
+    "question": "Who authored the paper titled 'Retrieval-Augmented Generation (RAG), Generative AI, and Agentic AI Governance: An Integrated Enterprise Governance Prioritization Architecture'?",
+    "ground_truth": "Audrey Rah, Sven Hahues",
+    "ground_truth_doc_ids": [
+      "10.21203/rs.3.rs-10012178/v1"
+    ]
+  },
+  {
+    "id": "q10",
+    "question_type": "date",
+    "question": "When was the paper titled '\u0421\u043d\u0438\u0436\u0435\u043d\u0438\u0435 \u0440\u0438\u0441\u043a\u043e\u0432 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u044f LLM (Large Language Model) \u0432 \u0441\u0444\u0435\u0440\u0435 \u044d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u043e\u0439 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438 \u043f\u0440\u0435\u0434\u043f\u0440\u0438\u044f\u0442\u0438\u0439 \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043f\u0440\u043e\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0441\u0442\u0438 \u043d\u0430 \u043e\u0441\u043d\u043e\u0432\u0435 \u043f\u043e\u0434\u0445\u043e\u0434\u0430 RAG (Retrieval-Augmented Generation)' published?",
+    "ground_truth": "2026-06-15",
+    "ground_truth_doc_ids": [
+      "10.47576/2949-1894.2026.7.7.023"
+    ]
+  }
+]
