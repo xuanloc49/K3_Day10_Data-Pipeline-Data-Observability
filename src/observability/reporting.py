@@ -18,7 +18,35 @@ def generate_phase1_report(
     3. In data quality va freshness.
     4. Ghi markdown vao report_path.
     """
-    raise NotImplementedError("Student task: implement phase 1 report.")
+    import json
+    from pathlib import Path
+    
+    md_content = f"""# Phase 1 Data Pipeline Report
+
+## Source Summary
+```json
+{json.dumps(source_summary, indent=2)}
+```
+
+## Metrics
+```json
+{json.dumps(metrics, indent=2)}
+```
+
+## Data Quality
+```json
+{json.dumps(quality, indent=2)}
+```
+
+## Freshness
+```json
+{json.dumps(freshness, indent=2)}
+```
+"""
+    path = Path(report_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(md_content)
 
 
 def generate_corruption_report(
@@ -32,4 +60,46 @@ def generate_corruption_report(
     repaired_freshness: dict[str, Any],
 ) -> None:
     """TODO(student): viet markdown report so sanh baseline/corrupted/repaired."""
-    raise NotImplementedError("Student task: implement corruption comparison report.")
+    import json
+    from pathlib import Path
+    
+    md_content = f"""# Corruption and Repair Comparison Report
+
+## Evaluation Metrics Comparison
+- **Baseline**:
+```json
+{json.dumps(baseline_metrics, indent=2)}
+```
+- **Corrupted**:
+```json
+{json.dumps(corrupted_metrics, indent=2)}
+```
+- **Repaired**:
+```json
+{json.dumps(repaired_metrics, indent=2)}
+```
+
+## Data Quality Comparison
+- **Corrupted**:
+```json
+{json.dumps(corrupted_quality, indent=2)}
+```
+- **Repaired**:
+```json
+{json.dumps(repaired_quality, indent=2)}
+```
+
+## Freshness Comparison
+- **Corrupted**:
+```json
+{json.dumps(corrupted_freshness, indent=2)}
+```
+- **Repaired**:
+```json
+{json.dumps(repaired_freshness, indent=2)}
+```
+"""
+    path = Path(report_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(md_content)
